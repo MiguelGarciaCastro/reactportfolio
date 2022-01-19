@@ -44,15 +44,15 @@
 }
 
 .image {
-  
+    height: 350px;
     background-color: rgba(0, 0, 0, 0.596);
     height: 100%;
 }
 
 .image img {
-    margin-top: 5rem;
-    height:500px;
-    width: 600px;
+    margin-top: 3rem;
+    height:400px;
+    width: 700px;
     object-fit:scale-down;
 }
 

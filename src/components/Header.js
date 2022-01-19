@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 import './styles/Header.css'
 import { Link } from 'react-router-dom'
 import Contact from './Contact'
-import { Data } from './Data'
+import { bar } from './bar'
 
 
 const Header = () => {
@@ -40,16 +40,14 @@ const Header = () => {
                         <Link to='/contact'>Contact</Link>
                     </li>
 
-                    <div className="hamburger-icon">
-                    <MenuOutlined className='menu' onClick={showMenu}/>
-                </div>
+                  
                     
                 </ul>
             </nav>
 
             <nav className={open ? 'slider active' : 'slider'}>
                 <ul className='slider-ul' onClick={showMenu}>
-                    {Data.map((item,index) => {
+                    {bar.map((item,index) => {
                         return (
                             <li key={index} className={item.className}>
                                 <Link to={item.path}>{item.text}</Link>
