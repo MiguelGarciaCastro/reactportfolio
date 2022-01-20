@@ -13,6 +13,12 @@
     margin-top: 1rem;
 }
 
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
 .image-cont img{    
     width: 620px;
     border: 5px solid white;
@@ -35,7 +41,7 @@
         width: 100%;
         height: 100vh;
         background-color: black;
-        border: 5px solid grey;
+        border: 5px solid white;
         font-family: 'Poppins', sans-serif;
     
     }

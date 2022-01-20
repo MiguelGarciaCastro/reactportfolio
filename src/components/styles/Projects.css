@@ -24,7 +24,7 @@
 .cart {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(70, 70, 70);
     margin-top: 4rem;
     text-align: center;
     align-items: center;
@@ -42,7 +42,7 @@
 .cart p {
     font-size: 20px;
     font-weight: bolder;
-    color: #fff;
+    color: black;
     margin-top: 1rem;
 }
 .cart h5 {
