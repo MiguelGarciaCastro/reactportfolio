@@ -45,7 +45,7 @@
 
 .image {
     height: 350px;
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: black;
     height: 100%;
 }
 
@@ -59,8 +59,8 @@
 @media screen and (max-width:1200px) {
 
     .texts h1 {
-        font-size: 15px;
-        color: gray;
+        font-size: 20px;
+        color: black;
     }
 
 
@@ -75,7 +75,7 @@
     }
     
     .image {
-        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 39% 100%, 0% 50%, 36% 0);  
+        clip-path: circle(70%) ;  
         background-color: rgba(0, 0, 0, 0.596);
     }
     
@@ -114,12 +114,12 @@
 
     .texts .h1-big {
         font-size: 15px;
-        color: rgb(61, 60, 60);
+        color: black;
     }
 
     .texts p {
-        border-top: 2px solid grey;
-        color: gray;
+        border-top: 2px solid black;
+        color: white;
         text-transform: lowercase;
         font-size: 8px;
     }
