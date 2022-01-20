@@ -13,6 +13,8 @@ const Section = () => {
                     <h1>Hello My Name is Miguel Garcia</h1>
                     
                     <h5> I started with a college coding class then I tried a coding bootcamp, still learning react!</h5>
+                    <br></br>
+                    <h5>My 6 nephews keep me entertained when im not coding, also love sports and traveling.</h5>
                     
                     <div className="info">
                         <br></br>

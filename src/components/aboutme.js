@@ -1,6 +1,6 @@
 import React from 'react'
 import think from './assets/images/think.png'
-import './styles/Second.css'
+import './styles/aboutme.css'
 
 const Second = () => {
     return (

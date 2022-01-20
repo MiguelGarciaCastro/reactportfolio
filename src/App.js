@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import Second from './components/Second';
+import Second from './components/aboutme';
 import Section from './components/Section';
 import Projects from './components/projects';
 
