@@ -2,7 +2,7 @@ import React from 'react'
 import think from './assets/images/think.png'
 import './styles/aboutme.css'
 
-const Second = () => {
+const aboutme = () => {
     return (
         <section className='section-2'>
             <h1 className='iknow'>Things I Know</h1>
@@ -34,4 +34,4 @@ const Second = () => {
     )
 }
 
-export default Second
+export default aboutme
